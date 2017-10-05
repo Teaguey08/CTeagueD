@@ -4,6 +4,8 @@ This is an atlernative CTD design from the CTDizzle it is basically the same but
 This design also features 3D printed parts in the form of an Parts Include a protector for the ends of the probes and an electronics sled complete with mounting points for components, a battery holder for the 1s lipo 1000mah and a sleave for potting the conductivity probe from the other side so it cannot be pushed through the epoxy base.
 ![alt text](https://github.com/Teaguey08/CTeagueD/blob/master/CTD%20Protector%20v10.jpg)
 
+This guide is to be used in conjuction with CTDizzle https://github.com/Teaguey08/CTDizzle/blob/master/MKRZero/MKRZero_UserGuide.mddesign but it does deviate at certain points such as circuit diagram and the extra of the 3D printed parts so i suggest you follow his guide and subsitute out the circuit diagram and follow the rest of the guide. 
+
 ## UK based Parts list
 This CTD will cost around £540 (before postage or shipping). UK Parts (Where possible).
 
@@ -68,7 +70,7 @@ Make sure to use a multimeter at the end to check continuity and especially make
 For the EC EZO circuit I used jumper wires to go into the headers as a pose to soldering into the board so if that’s part breaks it could be replaced.
 
 ## 3D Printing
-(Parts are available online) [https://www.thingiverse.com/thing:2567901] 
+Parts are available online: https://www.thingiverse.com/thing:2567901
 Parts Include a protector for the ends of the probes, this attaches to the 3” BlueRobotics face plate that you will pot the sensors through. It protects from knocking and hitting them on bottom of your sampling areas.
 There is also an electronics sled complete with mounting points for components, a battery holder for the 1s lipo 1000mah. The batter holder is separate so you can use any batteries you choose, this can be glued onto the back of the sled and the battery held in place with a small tie wrap through the slots provided.
 Finally, a sleeve for potting the conductivity probe from the other side so it cannot be pushed through the epoxy base. This is an extra on the potting of the CTDizzle as pressure is being exerted from the outside inwards. An epoxy puck behind will not necessarily keep the conductivity probe from being pushed through, however if there’s epoxy on the other side it will be compressed under pressure making a tighter and tighter fit. The ring is slightly larger than the probe and the inside of the sleeve is a truncated cone. 
