@@ -1,8 +1,11 @@
 # CTeagueD
-This is an atlernative CTD design from the CTDizzle it is basically the same but the wiring is slightly different and in a Larger 3” Bluerobotics watertight enclosure.
-This design also features 3D printed parts in the form of an Parts Include a protector for the ends of the probes and an electronics sled complete with mounting points for components, a battery holder for the 1s lipo 1000mah and a sleave for potting the conductivity probe from the other side so it cannot be pushed through the epoxy base. I have also included a UK based Parts list. This CTD will cost around £540 (before postage or shipping).
-UK Parts (Where possible)
 
+This is an atlernative CTD design from the CTDizzle it is basically the same but the wiring is slightly different and in a Larger 3” Bluerobotics watertight enclosure.
+This design also features 3D printed parts in the form of an Parts Include a protector for the ends of the probes and an electronics sled complete with mounting points for components, a battery holder for the 1s lipo 1000mah and a sleave for potting the conductivity probe from the other side so it cannot be pushed through the epoxy base.
+![alt text](https://github.com/Teaguey08/CTeagueD/blob/master/CTD%20Protector%20v10.jpg)
+
+## UK based Parts list
+This CTD will cost around £540 (before postage or shipping). UK Parts (Where possible).
 
 |Part	|Vendor	 |Price 	|Note|
 |-----|--------|-------|------|
@@ -59,6 +62,8 @@ I have grouped the wiring and pin connections rather than compeoents, this helpe
 |Atlas-Scientific EC K1.0 Probe|	Red	|PRB1 (on EC EZO)	|Conduct RED|
 |Atlas-Scientific EC K1.0 Probe|	Black|	PRB2 (on EC EZO)|	Conduct BLK|
 
+![alt text](https://github.com/Teaguey08/CTeagueD/blob/master/circuit%20diagram%20CTD.PNG)
+
 Make sure to use a multimeter at the end to check continuity and especially make sure the VCC and GND are not connected before powering on as they are very close together and this will blow your electronics should it be incorrect.
 For the EC EZO circuit I used jumper wires to go into the headers as a pose to soldering into the board so if that’s part breaks it could be replaced.
 
@@ -67,7 +72,10 @@ For the EC EZO circuit I used jumper wires to go into the headers as a pose to s
 Parts Include a protector for the ends of the probes, this attaches to the 3” BlueRobotics face plate that you will pot the sensors through. It protects from knocking and hitting them on bottom of your sampling areas.
 There is also an electronics sled complete with mounting points for components, a battery holder for the 1s lipo 1000mah. The batter holder is separate so you can use any batteries you choose, this can be glued onto the back of the sled and the battery held in place with a small tie wrap through the slots provided.
 Finally, a sleeve for potting the conductivity probe from the other side so it cannot be pushed through the epoxy base. This is an extra on the potting of the CTDizzle as pressure is being exerted from the outside inwards. An epoxy puck behind will not necessarily keep the conductivity probe from being pushed through, however if there’s epoxy on the other side it will be compressed under pressure making a tighter and tighter fit. The ring is slightly larger than the probe and the inside of the sleeve is a truncated cone. 
-Components on electronics sled 
+Components on electronics sled.
+
+![alt text](https://github.com/Teaguey08/CTeagueD/blob/master/CTD%20JT%20tray%20in%20place.PNG)
+![alt text](https://github.com/Teaguey08/CTeagueD/blob/master/CTD%20JT%20tray.PNG)
 
 ### Tools
 - Hot Glue Gun
