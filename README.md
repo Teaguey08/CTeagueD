@@ -4,7 +4,7 @@ This is an atlernative CTD design from the CTDizzle it is basically the same but
 This design also features 3D printed parts in the form of an Parts Include a protector for the ends of the probes and an electronics sled complete with mounting points for components, a battery holder for the 1s lipo 1000mah and a sleave for potting the conductivity probe from the other side so it cannot be pushed through the epoxy base.
 ![alt text](https://github.com/Teaguey08/CTeagueD/blob/master/CTD%20Protector%20v10.jpg)
 
-This guide is to be used in conjuction with CTDizzle https://github.com/Teaguey08/CTDizzle/blob/master/MKRZero/MKRZero_UserGuide.mddesign but it does deviate at certain points such as circuit diagram and the extra of the 3D printed parts so i suggest you follow his guide and subsitute out the circuit diagram and follow the rest of the guide. 
+This guide is to be used in conjuction with CTDizzle https://github.com/Teaguey08/CTDizzle/blob/master/MKRZero/MKRZero_UserGuide.mddesign but it does deviate at certain points such as circuit diagram and the extra of the 3D printed parts so i suggest you follow his guide and subsitute out the circuit diagram and follow the rest of the guide. If you run into any troubles or make one or use the parts.. drop me a shout on twitter https://twitter.com/jonny_teague
 
 ## UK based Parts list
 This CTD will cost around £540 (before postage or shipping). UK Parts (Where possible).
@@ -29,7 +29,7 @@ Mine came with headers and pins extending from the bottom. Snip the produding pi
 The MRK Protoshield came with headers so solder these in place making sure the board is correctly aligned and the headers are flush to the board. Test fit these together to make sure no pins are missalgined or bent. Be careful when soldering not to damage these.
 Soldering compoents
 
-### Tools
+#### Tools
 - Soldering iron
 - Solder
 - Wire cutters
@@ -38,7 +38,7 @@ Soldering compoents
 
 This differs from CTDizzles Design as he made the Protoboard removable from the compoents via connectors and has a lot of jumpers to do. This design the protoboard is not removable but the MRK Zero is. I have included a picture/ diagram of the solder points, most wires come through from the bottom of the board for tidyness. 
 
-## PIN Outs (Adpated from CTDizzle)
+### PIN Outs (Adpated from CTDizzle)
 I have grouped the wiring and pin connections rather than compeoents, this helped me to plan out a soldering pattern. Many of these compoents have shared pin outs on the MKR Zero, I soldered along in lines and connected solder points together to achieve a breadboard effect as the protobaord is all separate connections. (This can be quite tricky and fustrating so I suggest doing on line (Row) at a time as the solder wants to attach collumns and rows, which you don’t want). Note if you are using the 3D printed sled you have to pass wires and probe through one of the end cap parts. One hole is for wires the other for conductivity probe.
 
 |Part	|Pad / Wire|	MKRZero|	Circuit Diagram |
